@@ -110,4 +110,15 @@ guest_names = ['Mark Z']
 del guest_names[0]
 print(guest_names)
 
-    
+#using slices
+guest_names = ['Mark Z', 'Bill Gates', 'Elon Musk']
+
+print("Here is the first guest on the list:")
+for guest in guest_names[:1]:
+    print(guest.title())
+
+guest_names = ['Mark Z', 'Bill Gates', 'Elon Musk']
+
+print("Here are the next guests on the list:")
+for guests in guest_names[1:3]:
+    print(guests.title())    
